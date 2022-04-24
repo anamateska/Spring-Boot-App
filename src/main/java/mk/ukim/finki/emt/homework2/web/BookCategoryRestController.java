@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://git.heroku.com/spring-boot-anamateska.git")
 @RequestMapping("/api/categories")
 public class BookCategoryRestController {
 
