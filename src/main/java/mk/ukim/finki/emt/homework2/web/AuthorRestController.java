@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "https://git.heroku.com/spring-boot-anamateska.git")
+@CrossOrigin(origins = "https://react-anamateska.herokuapp.com/")
 @RequestMapping("/api/authors")
 public class AuthorRestController {
 
